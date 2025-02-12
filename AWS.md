@@ -1,54 +1,3 @@
-__IAM__
-```yaml
-IAM:
-  How do you control access to AWS services and resources using IAM?
-  Explain the difference between an AWS user, group, role, and policy.
-  What are the best practices for creating and managing IAM users in AWS?
-  How do you enable multi-factor authentication (MFA) for AWS IAM users?
-  Describe the process of setting up cross-account access in AWS IAM.
-  What is AWS Identity Federation, and how does it work with IAM?
-  Explain the differences between IAM policies and resource-based policies in AWS.
-  How do you rotate access keys for IAM users, and why is key rotation important?
-  What is AWS Cognito, and how does it relate to IAM in the context of user identity and authentication?
-  Explain the concept of AWS Security Token Service (STS) and how it relates to temporary credentials in IAM.
-  Limit to attach max no of policies to IAM roles
-  What is trusted entity in aws
-  Can you provide an example of a complex IAM scenario you've encountered in AWS and how you resolved it?
-  Your organization is concerned about security breaches due to compromised AWS access keys. How would you implement a secure access key rotation strategy for IAM users?
-  Your organization is migrating on-premises applications to AWS. How would you ensure a seamless transition for user authentication and authorization using AWS IAM?
-  Your organization has adopted AWS Organizations to manage multiple AWS accounts. How would you enforce IAM best practices and policies across these accounts efficiently?
-```
-__S3__
-```yaml
-S3:
-  What is Amazon S3, and what is its primary purpose within the AWS ecosystem?
-  Explain the structure of an S3 object's URL (Uniform Resource Locator).
-  What are the different storage classes available in Amazon S3, and when would you use each one?
-  Describe the difference between an S3 bucket and an S3 object.
-  What is S3 data consistency, and how does it work in different scenarios (e.g., read-after-write consistency, eventual consistency)?
-
-  How do you secure data stored in an S3 bucket, and what are the key access control mechanisms in S3?
-  Explain the use of S3 bucket policies and IAM policies in controlling access to S3 resources.
-  Explain the use of S3 bucket policies and IAM policies in controlling access to S3 resources.
-  How can you encrypt data in S3, and what are the encryption options available?
-  What is S3 Object Lock, and how can it be used to enhance data security and compliance?
-
-  How do you transfer large data into and out of an S3 bucket?  
-  What is versioning in S3, and what are its benefits and use cases?
-  Explain the concept of S3 Lifecycle policies and provide examples of when they might be useful.
-  How can you replicate data between S3 buckets in different AWS regions or accounts?
-  What is S3 Select, and how does it improve data retrieval efficiency?
-
-  What is the Amazon S3 Transfer Acceleration feature, and when might you use it?    
-  What AWS services can be used for monitoring and logging S3 activities, and how would you set up such monitoring?
-  Explain the purpose of Amazon S3 event notifications, and provide examples of use cases.
-  What factors influence the cost of using Amazon S3, and how can you optimize costs while using S3 for your data storage needs?
-  Give examples of industries or scenarios where Amazon S3 is a valuable storage solution.
-  How can S3 be integrated with other AWS services, such as EC2, Lambda, or Glacier, to build scalable and efficient applications?
-  Explain how you would architect a backup and disaster recovery solution using S3.
-  Discuss the advantages and considerations of using Amazon S3 as a content delivery solution (S3 as a static website host or through Amazon CloudFront).
-```
-
 __EC2__
 ```yaml
 EC2:
@@ -142,24 +91,57 @@ VPC:
   Discuss strategies for managing and optimizing VPC resources, including IP address allocation, subnet sizing, and route table design.
   What are the considerations when setting up VPCs in a multi-region or global configuration for disaster recovery or load balancing?
 ```
-__Route53__
+__IAM__
 ```yaml
-Route53:
-  What are top-level domains (TLDs) and second-level domains, and how do they relate to Route 53?
-  Explain the primary services provided by Amazon Route 53.
-  Walk me through the process of registering a domain name with Amazon Route 53.
-  What are the differences between domain registration and DNS hosting, and how does Route 53 handle both?
-  How can you migrate a domain from another registrar to Route 53?
-  Explain the various routing policies supported by Route 53, including Simple, Weighted, Latency-Based, Geolocation, and Failover policies.
-  What is the purpose of a weighted routing policy, and when would you use it?
-  How does the latency-based routing policy work, and when is it beneficial for optimizing user experience?
-  What are health checks in Amazon Route 53, and how can they be used to monitor the health of resources?
-  How can you configure a failover routing policy with Route 53, and what role do health checks play in this scenario?
-  Discuss best practices for optimizing Route 53 for high availability and low latency.
-  Give examples of scenarios where you would use Route 53 for global load balancing, failover, or disaster recovery.
-  Explain how you can use Route 53 in conjunction with AWS services like Elastic Load Balancing (ELB) for scalable and resilient architectures.
-  Explain different types of records in RT53(Like A, AAAA, NS, SOA, etc.)
+IAM:
+  How do you control access to AWS services and resources using IAM?
+  Explain the difference between an AWS user, group, role, and policy.
+  What are the best practices for creating and managing IAM users in AWS?
+  How do you enable multi-factor authentication (MFA) for AWS IAM users?
+  Describe the process of setting up cross-account access in AWS IAM.
+  What is AWS Identity Federation, and how does it work with IAM?
+  Explain the differences between IAM policies and resource-based policies in AWS.
+  How do you rotate access keys for IAM users, and why is key rotation important?
+  What is AWS Cognito, and how does it relate to IAM in the context of user identity and authentication?
+  Explain the concept of AWS Security Token Service (STS) and how it relates to temporary credentials in IAM.
+  Limit to attach max no of policies to IAM roles
+  What is trusted entity in aws
+  Can you provide an example of a complex IAM scenario you've encountered in AWS and how you resolved it?
+  Your organization is concerned about security breaches due to compromised AWS access keys. How would you implement a secure access key rotation strategy for IAM users?
+  Your organization is migrating on-premises applications to AWS. How would you ensure a seamless transition for user authentication and authorization using AWS IAM?
+  Your organization has adopted AWS Organizations to manage multiple AWS accounts. How would you enforce IAM best practices and policies across these accounts efficiently?
 ```
+__S3__
+```yaml
+S3:
+  What is Amazon S3, and what is its primary purpose within the AWS ecosystem?
+  Explain the structure of an S3 object's URL (Uniform Resource Locator).
+  What are the different storage classes available in Amazon S3, and when would you use each one?
+  Describe the difference between an S3 bucket and an S3 object.
+  What is S3 data consistency, and how does it work in different scenarios (e.g., read-after-write consistency, eventual consistency)?
+
+  How do you secure data stored in an S3 bucket, and what are the key access control mechanisms in S3?
+  Explain the use of S3 bucket policies and IAM policies in controlling access to S3 resources.
+  Explain the use of S3 bucket policies and IAM policies in controlling access to S3 resources.
+  How can you encrypt data in S3, and what are the encryption options available?
+  What is S3 Object Lock, and how can it be used to enhance data security and compliance?
+
+  How do you transfer large data into and out of an S3 bucket?  
+  What is versioning in S3, and what are its benefits and use cases?
+  Explain the concept of S3 Lifecycle policies and provide examples of when they might be useful.
+  How can you replicate data between S3 buckets in different AWS regions or accounts?
+  What is S3 Select, and how does it improve data retrieval efficiency?
+
+  What is the Amazon S3 Transfer Acceleration feature, and when might you use it?    
+  What AWS services can be used for monitoring and logging S3 activities, and how would you set up such monitoring?
+  Explain the purpose of Amazon S3 event notifications, and provide examples of use cases.
+  What factors influence the cost of using Amazon S3, and how can you optimize costs while using S3 for your data storage needs?
+  Give examples of industries or scenarios where Amazon S3 is a valuable storage solution.
+  How can S3 be integrated with other AWS services, such as EC2, Lambda, or Glacier, to build scalable and efficient applications?
+  Explain how you would architect a backup and disaster recovery solution using S3.
+  Discuss the advantages and considerations of using Amazon S3 as a content delivery solution (S3 as a static website host or through Amazon CloudFront).
+```
+
 __RDS__
 ```yaml
 RDS:
@@ -178,6 +160,26 @@ RDS:
   Discuss best practices for maintaining and optimizing the performance and cost of Amazon RDS instances over time.
 
 ```
+
+__Route53__
+```yaml
+Route53:
+  What are top-level domains (TLDs) and second-level domains, and how do they relate to Route 53?
+  Explain the primary services provided by Amazon Route 53.
+  Walk me through the process of registering a domain name with Amazon Route 53.
+  What are the differences between domain registration and DNS hosting, and how does Route 53 handle both?
+  How can you migrate a domain from another registrar to Route 53?
+  Explain the various routing policies supported by Route 53, including Simple, Weighted, Latency-Based, Geolocation, and Failover policies.
+  What is the purpose of a weighted routing policy, and when would you use it?
+  How does the latency-based routing policy work, and when is it beneficial for optimizing user experience?
+  What are health checks in Amazon Route 53, and how can they be used to monitor the health of resources?
+  How can you configure a failover routing policy with Route 53, and what role do health checks play in this scenario?
+  Discuss best practices for optimizing Route 53 for high availability and low latency.
+  Give examples of scenarios where you would use Route 53 for global load balancing, failover, or disaster recovery.
+  Explain how you can use Route 53 in conjunction with AWS services like Elastic Load Balancing (ELB) for scalable and resilient architectures.
+  Explain different types of records in RT53(Like A, AAAA, NS, SOA, etc.)
+```
+
 __Lambda__
 ```yaml
 Lambda:
